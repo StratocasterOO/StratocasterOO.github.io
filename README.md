@@ -1,2 +1,2 @@
 # stratocasteroo.github.io
-Github bages
+Github pages
