@@ -4,7 +4,7 @@ var app = new Vue({
     data: {
         // set default values
         currentPage: 'home',
-        currentPageTitle: "Omar dios del diseño",
+        currentPageTitle: "Omar's Github Pages",
         currentPageSubtitle: '',
         currentPageContent: ''
     },

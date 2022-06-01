@@ -11,19 +11,22 @@
 body{
     display: flex;
     background-color: rgb(55, 55, 55);
-
+    justify-content: space-around;
+    padding: 0 20% ;
 }
+
 
 div.card {
     color: rgb(218, 218, 218);
-    width: 210px;
-    height: 600px;
+    width: 310px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     border: 3px solid #000;
     border-radius: 10px;
     background-color: rgb(92, 92, 92);
     margin: 20px;
+    padding: 10px;
 }
 
 div.card a{
@@ -31,4 +34,9 @@ div.card a{
     color: rgb(218, 218, 218);
     font-size: 18px;
     font-weight: bold;
+    text-align: center;
+}
+
+div.card a:hover{
+    color: rgb(255, 255, 255);
 }
